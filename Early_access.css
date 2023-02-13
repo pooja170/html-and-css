@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 31px 83px;
+    height: 70px;
+    background-color: black;
+}
+.grow-list{
+    flex-grow: 1;
+}
+img{
+    width: 100px;
+    height: 35px;
+    margin-right: 50px;
+    /* margin-top: 100px;
+    margin-left: 34px;  */
+   
+}
+.line{
+    width: 1px;
+    height: 50px;
+    background-color: white;
+    margin-left: 23px;
+    /* margin-left: 150px;
+    margin-bottom: 30px; */
+}
+.straight-line{
+    display: flex;
+    align-items: center;
+    
+}
+.list{
+    display: flex;
+    align-items: center;
+    gap: 63px;
+   color: white;
+   margin-left: 123px;
+   font-size: 16px;
+   font-weight: 600;
+   
+    
+} 
+.list li{
+    list-style: none;
+}
+.container{
+    text-align: center;
+    background-image: url("https://raw.githubusercontent.com/pwlive/fullstackwebdevelopment/1f493053570bf725b7af69e53878f4f83fadfe56/Assignment_03(HTML%2BCSS)/assets/bg.png");
+    height: 90vh;
+    background-size: cover;
+    color: white;
+}
+.container h1{
+   padding-top: 120px;
+    font-size: 80px;
+    font-weight: 700;
+    line-height: 90px;
+   padding-bottom: 21px;
+}
+.container p{
+    font-size: 30px;
+    font-weight: 500;
+    padding-bottom: 31px;
+}
+.btn button{
+    color: white;
+    background-color: #ba0cc5;
+    border:none;
+    padding: 7px 11px;
+    border-radius: 7px;
+    font-weight: 400;
+    font-size: 16px;
+}
+.buttn button{
+    background-color: #ba0cc5;
+    color: white;
+    border: none;
+    border-radius: 11px;
+    font-weight: 400;
+    font-size: 21px;
+    padding: 11px 21px;
+
+}
