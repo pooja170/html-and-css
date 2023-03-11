@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+    font-family: "IBM Plex Sans", sans-serif;
+}
+body{
+    max-width: 1440px;
+    overflow: hidden;
+    margin: auto;
+    background-color: #f0f0f0;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5%;
+    height: 15vh;
+}
+.medifine-logo{
+    width: 150px;
+}
+nav ul {
+    display: flex;
+    align-items: center;
+}
+nav ul li{
+ list-style: none;
+ margin-right: 50px;
+ font-weight: 600;
+}
+a{
+    text-decoration: none;
+    color: black;
+
+}
+nav ul li:first-child{
+    font-weight: 700;
+    color: #20bc7e;
+}
+main{
+   height: 85vh;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   padding: 0 5%;
+   
+}
+.container{
+     display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    
+    width: 50%;
+
+}
+.container h1{
+    color: #20bc7e;
+}
+ .container p{
+    font-size: 18px;
+    font-weight: 400;
+}
+.achievement{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    margin-top: 50px;
+}
+.achievement-card{
+    width: 200px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    box-shadow:  0 0 10px black;
+}
+.achievement-card p{
+    font-size: 20px;
+  font-weight: 500;
+
+}
+.achievement-card span{
+    font-size: 25px;
+    font-weight: 700;
+    color: #20bc7e;
+}
